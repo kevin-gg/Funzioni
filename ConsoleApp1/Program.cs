@@ -6,7 +6,9 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
-        }
+            int n1 = 5, n2 = 3;
+            int somma = Funzioni.somma(n1, n2);
+            Console.WriteLine($"{somma}");
+        }  
     }
 }
