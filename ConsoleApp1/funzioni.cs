@@ -2,30 +2,30 @@
 
 namespace Funzioni
 {
-    public static double somma(double n1, double n2)
+    public static double Somma(double n1, double n2)
     {
         return  n1 + n2;
     }
-    public static  int somma(int n1, int n2)
+    public static  int Somma(int n1, int n2)
     {
         return  n1 + n2;
     }
-    public static  double moltiplicazione(double n1, double n2)
+    public static  double Moltiplicazione(double n1, double n2)
     {
         return  n1 * n2;
 
     }
-    public static  double differenza(double n1, double n2)
+    public static  double Differenza(double n1, double n2)
     {
         return  n1 - n2;
 
     }
-    public static  double divisione(double n1, double n2)
+    public static  double Divisione(double n1, double n2)
     {
         return  n1 / n2;
 
     }
-    public static long potenza(int n1, int n2)
+    public static long Potenza(int n1, int n2)
     {
         long potenza = 1;
         int contatore = 0;
@@ -60,10 +60,11 @@ namespace Funzioni
         {
             min = n3;
         }
+        return min;
     }
     
 
-        public static double inverso(int n1)
+        public static double Inverso(int n1)
         {
             return n1 = n1 * -1;
         }
